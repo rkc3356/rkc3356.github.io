@@ -9,6 +9,7 @@ import soundcloud from './media/soundcloud.jpeg'
 import resume from './media/resume.png';
 import { Document, Page, pdfjs } from "react-pdf";
 import resumepdf from './media/raavicresume.pdf';
+import RAAVI_text from './media/RAAVI1.png';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -41,11 +42,7 @@ class App extends Component {
           <Container className='main'>
             <Row>
               <Col>
-              </Col>
-              <Col>
-                <h1>RAAVI</h1>
-              </Col>
-              <Col>
+                <img src={RAAVI_text} alt={"RAAVI"} width={200} />
               </Col>
             </Row>
             <div className='mainButtons'>
