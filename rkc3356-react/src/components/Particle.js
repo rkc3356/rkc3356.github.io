@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import { useCallback, useMemo } from "react";
 
 const ParticleComponent = () => {
+
     const options = useMemo(() => {
         return {
             background: {
@@ -30,7 +31,7 @@ const ParticleComponent = () => {
                         quantity: 10,
                     },
                     repulse: {
-                        distance: 150,
+                        distance: 75,
                     },
                 }
             },
@@ -57,7 +58,7 @@ const ParticleComponent = () => {
     }, []);
 
     const particlesInit = useCallback((engine) => {
-        loadFull(engine);
+        loadSlim(engine);
     }, []);
 
     return <Particles init={particlesInit} options={options} />;
