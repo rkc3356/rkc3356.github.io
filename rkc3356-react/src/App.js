@@ -48,26 +48,19 @@ class App extends Component {
               <Col>
               </Col>
             </Row>
-            <Row>
-              <Col>
-                <ImageButton link={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
-              </Col>
-              <Col>
-                <ImageButton link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
-              </Col>
-            </Row>
-            <Row>
-              <Row>
+            <div className='mainButtons'>
+              <Row xs={1} md={3}>
                 <Col>
-                  <img src={resume} alt={"RESUME"} width={100} />
+                  <ImageButton link={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
+                </Col>
+                <Col>
+                  <ImageButton link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
+                </Col>
+                <Col>
+                  <ImageButton onClick={this.openResume} name={"RESUMÉ"} img={resume} alt={"RESUMÉ"} />
                 </Col>
               </Row>
-              <Row>
-                <Col>
-                  <button onClick={this.openResume}>RESUMÉ</button>
-                </Col>
-              </Row>
-            </Row>
+            </div>
           </Container>
           <ParticleComponent />
         </div>

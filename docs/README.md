@@ -1,3 +1,3 @@
-# RAAVI: rkc3356.github.io
+# [RAAVI](rkc3356.github.io)
 
 ## This is my personal site. I made the front-end with React and tsParticles, the API is FLASK, and the backend is Python interacting with a Postgres DB.
