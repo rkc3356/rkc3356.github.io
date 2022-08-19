@@ -40,13 +40,8 @@ class App extends Component {
         <div className="App">
           <br />
           <br />
-
+          <img id={"nameText"} src={RAAVI_text} alt={"RAAVI"} width={300} />
           <Container className='main'>
-            <Row xs={1}>
-              <Col>
-                <img src={RAAVI_text} alt={"RAAVI"} width={300} />
-              </Col>
-            </Row>
             <Row xs={1} md={3}>
               <Col>
                 <ImageButton type={"link"} link={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
@@ -58,6 +53,7 @@ class App extends Component {
                 <ImageButton type={"link"} link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
               </Col>
             </Row>
+            <br />
             <Row>
               <Col>
                 <img src={subway} alt={"GREENISH IMAGE OF DESOLATE SUBWAY"} width={75} />
@@ -71,25 +67,18 @@ class App extends Component {
     else if (this.state.Mode == "Resume") {
       return (
         <div className='Resume'>
-          <Container>
-            <Row className={"resumePDF"}>
-              <Col>
-                <Document file={resumepdf}>
-                  <Page pageNumber={1} />
-                </Document>
-              </Col>
-              <Col>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <img src={home} alt={"HOME ICON"} width={20} />
-                <button onClick={this.openHome}>HOME</button>
-              </Col>
-            </Row>
-          </Container>
+          <br />
+          <img src={home} alt={"HOME ICON"} width={20} />
+          <br />
+          <button onClick={this.openHome}>HOME</button>
+          <br />
+          <br />
+          <br />
+          <div className={"resumePDF"}>
+            <Document file={resumepdf}>
+              <Page pageNumber={1} />
+            </Document>
+          </div>
           <ParticleComponent />
         </div>
       );

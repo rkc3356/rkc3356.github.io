@@ -4,3 +4,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.resumePDF {
+  margin: auto;
+  margin-left: 250px;
+}
+
+.Resume {
+  justify-content: center;
+}
