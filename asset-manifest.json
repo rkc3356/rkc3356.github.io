@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06df1413.css",
+    "main.js": "/static/js/main.d024af59.js",
+    "static/js/787.f49164eb.chunk.js": "/static/js/787.f49164eb.chunk.js",
+    "static/media/raavicresume.pdf": "/static/media/raavicresume.7683a6e10aeb180cf0c8.pdf",
+    "static/media/soundcloud.jpeg": "/static/media/soundcloud.7f2dba173eb5ae4081e0.jpeg",
+    "static/media/github.jpeg": "/static/media/github.39d17e50ca001ae4ffdd.jpeg",
+    "index.html": "/index.html",
+    "main.06df1413.css.map": "/static/css/main.06df1413.css.map",
+    "main.d024af59.js.map": "/static/js/main.d024af59.js.map",
+    "787.f49164eb.chunk.js.map": "/static/js/787.f49164eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06df1413.css",
+    "static/js/main.d024af59.js"
+  ]
+}
