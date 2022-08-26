@@ -11,7 +11,7 @@ class ImageButton extends Component {
         const openInNewTab = url => {
             window.open(url, '_blank');
         };
-        if (this.props.type == "link") {
+        if (this.props.type === "link") {
             return (
                 <div className='ImageButton'>
                     <Container>
@@ -29,7 +29,7 @@ class ImageButton extends Component {
                 </div>
             );
         }
-        else if (this.props.type == "pdf") {
+        else if (this.props.type === "pdf") {
             return (
                 <div className='ImageButton'>
                     <Container>
