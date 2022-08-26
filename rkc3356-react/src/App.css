@@ -9,7 +9,16 @@ body {
 }
 
 .main > * {
-  margin: 7em;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+.col {
+  padding: 10px;
+}
+
+.Welcome {
+  margin-top: 20em;
 }
 
 button {

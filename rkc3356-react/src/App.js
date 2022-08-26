@@ -20,7 +20,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      Mode: "Home" // "Home","Resume"
+      Mode: "Welcome" // "Welcome","Home","Resume"
     }
     this.openResume = this.openResume.bind(this);
     this.openHome = this.openHome.bind(this);
@@ -35,7 +35,7 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.Mode == "Home") {
+    if (this.state.Mode === "Home") {
       return (
         <div className="App">
           <br />
@@ -56,7 +56,7 @@ class App extends Component {
             <br />
             <Row>
               <Col>
-                <img src={subway} alt={"GREENISH IMAGE OF DESOLATE SUBWAY"} width={75} />
+                <img src={subway} alt={"GREEN TINTED DESOLATE SUBWAY"} width={75} />
               </Col>
             </Row>
           </Container>
@@ -64,7 +64,21 @@ class App extends Component {
         </div>
       );
     }
-    else if (this.state.Mode == "Resume") {
+    else if (this.state.Mode === "Welcome") {
+      return (
+        <div className='Welcome'>
+          <br />
+          <img src={home} alt={"Home Icon"} width={20} />
+          <br />
+          <button onClick={this.openHome}>WELCOME</button>
+          <br />
+          <br />
+          <br />
+          <ParticleComponent />
+        </div>
+      );
+    }
+    else if (this.state.Mode === "Resume") {
       return (
         <div className='Resume'>
           <br />
