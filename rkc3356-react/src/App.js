@@ -12,7 +12,8 @@ import resumepdf from './media/raavicresume.pdf';
 import RAAVI_text from './media/RAAVI1.png';
 import subway from './media/IMG_5566.jpg';
 import home from './media/home.png';
-import linkedin from './media/linkedin.jpeg'
+import linkedin1 from './media/linkedin1.jpeg';
+import mail from './media/mail.jpeg';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -51,7 +52,7 @@ class App extends Component {
                 <ImageButton type={"pdf"} pdf={this.openResume} name={"RESUMÉ"} img={resume} alt={"RESUMÉ"} />
               </Col>
               <Col>
-                <ImageButton type={"link"} link={"https://www.linkedin.com/in/raavi-chowdhury-38957b194/"} name={"LINKEDIN"} img={linkedin} alt={"LINKEDIN"} />
+                <ImageButton type={"link"} link={"https://www.linkedin.com/in/raavi-chowdhury-38957b194/"} name={"LINKEDIN"} img={linkedin1} alt={"LINKEDIN"} />
               </Col>
               <Col>
                 <ImageButton type={"link"} link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
