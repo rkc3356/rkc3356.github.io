@@ -12,6 +12,7 @@ import resumepdf from './media/raavicresume.pdf';
 import RAAVI_text from './media/RAAVI1.png';
 import subway from './media/IMG_5566.jpg';
 import home from './media/home.png';
+import linkedin from './media/linkedin.jpeg'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -42,12 +43,15 @@ class App extends Component {
           <br />
           <img id={"nameText"} src={RAAVI_text} alt={"RAAVI"} width={300} />
           <Container className='main'>
-            <Row xs={1} md={3}>
+            <Row xs={1} md={4}>
               <Col>
                 <ImageButton type={"link"} link={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
               </Col>
               <Col>
                 <ImageButton type={"pdf"} pdf={this.openResume} name={"RESUMÉ"} img={resume} alt={"RESUMÉ"} />
+              </Col>
+              <Col>
+                <ImageButton type={"link"} link={"https://www.linkedin.com/in/raavi-chowdhury-38957b194/"} name={"LINKEDIN"} img={linkedin} alt={"LINKEDIN"} />
               </Col>
               <Col>
                 <ImageButton type={"link"} link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />

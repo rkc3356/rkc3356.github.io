@@ -25,4 +25,11 @@ button {
   background-color: #000000; 
   color: white;
   border: 2px solid #000000;
+  font-family: 'Garamond';
+}
+
+.resumePDF {
+  width: 1000px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
