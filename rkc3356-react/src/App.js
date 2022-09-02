@@ -44,7 +44,7 @@ class App extends Component {
           <br />
           <img id={"nameText"} src={RAAVI_text} alt={"RAAVI"} width={300} />
           <Container className='main'>
-            <Row xs={1} md={4}>
+            <Row xs={1} md={3}>
               <Col>
                 <ImageButton type={"link"} link={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
               </Col>
@@ -56,6 +56,9 @@ class App extends Component {
               </Col>
               <Col>
                 <ImageButton type={"link"} link={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
+              </Col>
+              <Col>
+                <ImageButton type={"link"} link={"mailto:rkc3356@g.rit.edu"} name={"EMAIL"} img={mail} alt={"EMAIL"} />
               </Col>
             </Row>
             <br />
