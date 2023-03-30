@@ -33,3 +33,15 @@ button {
   margin-left: 29% ;
   margin-right: auto ;
 }
+
+.ImageButton {
+  padding: 20px;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.ResumeButton {
+  transform: translateY(88px);
+}
