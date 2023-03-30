@@ -41,7 +41,3 @@ button {
 .row {
   justify-content: space-between;
 }
-
-.ResumeButton {
-  transform: translateY(88px);
-}
