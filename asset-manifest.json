@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.ccd93949.css",
-    "main.js": "/static/js/main.1c73ac79.js",
+    "main.js": "/static/js/main.7d527924.js",
     "static/js/787.f49164eb.chunk.js": "/static/js/787.f49164eb.chunk.js",
     "static/media/home.png": "/static/media/home.ba8c06dee9b3354eca4d.png",
     "static/media/IMG_5566.jpg": "/static/media/IMG_5566.eeef1afc962f3e4019c3.jpg",
     "static/media/RAAVI1.png": "/static/media/RAAVI1.a1f2dff0190e91fc73be.png",
-    "static/media/raavicresume.pdf": "/static/media/raavicresume.d9d1ae029a6a87d53925.pdf",
+    "static/media/raavicresume.pdf": "/static/media/raavicresume.19cef21d3fb5c0a10e58.pdf",
+    "static/media/spotify.jpeg": "/static/media/spotify.4129545981a9c304e8fc.jpeg",
     "static/media/soundcloud.jpeg": "/static/media/soundcloud.7f2dba173eb5ae4081e0.jpeg",
     "static/media/github.jpeg": "/static/media/github.39d17e50ca001ae4ffdd.jpeg",
     "index.html": "/index.html",
     "main.ccd93949.css.map": "/static/css/main.ccd93949.css.map",
-    "main.1c73ac79.js.map": "/static/js/main.1c73ac79.js.map",
+    "main.7d527924.js.map": "/static/js/main.7d527924.js.map",
     "787.f49164eb.chunk.js.map": "/static/js/787.f49164eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccd93949.css",
-    "static/js/main.1c73ac79.js"
+    "static/js/main.7d527924.js"
   ]
 }
