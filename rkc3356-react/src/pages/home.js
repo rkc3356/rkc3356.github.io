@@ -9,6 +9,7 @@ import subway from '../media/IMG_5566.jpg';
 import linkedin1 from '../media/linkedin1.jpeg';
 import mail from '../media/mail.jpeg';
 import spotify from '../media/spotify.jpeg';
+import cat from '../media/cat.jpeg';
 
 function Home() {
 
@@ -20,23 +21,24 @@ function Home() {
             <Container className='main'>
                 <Row xs={1} md={3}>
                     <Col>
-                        <ImageButton to={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
+                        <ImageButton to={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
+                    </Col>
+                    <Col>
+                        <ImageButton to={"/cat"} name={"CAT"} img={cat} alt={"CAT"} />
                     </Col>
                     <Col>
                         <ImageButton to={"https://open.spotify.com/artist/417kM0woqUMxUUR8qedzC9?si=7jk8VNhRRm67lCOM5jxM9w"} name={"SPOTIFY"} img={spotify} alt={"SPOTIFY"} />
                     </Col>
                     <Col>
-                        <ImageButton to={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
+                        <ImageButton to={"mailto:rkc3356@g.rit.edu"} name={"EMAIL"} img={mail} alt={"EMAIL"} />
                     </Col>
                     <Col>
                         <ImageButton to={"https://www.linkedin.com/in/raavi-chowdhury-38957b194/"} name={"LINKEDIN"} img={linkedin1} alt={"LINKEDIN"} />
                     </Col>
                     <Col>
-                        <ImageButton to={"mailto:rkc3356@g.rit.edu"} name={"EMAIL"} img={mail} alt={"EMAIL"} />
+                        <ImageButton to={"https://github.com/rkc3356"} name={"GITHUB"} img={github} alt={"Github cat"} />
                     </Col>
-                    <Col>
-                        <ImageButton to={"mailto:rkc3356@g.rit.edu"} name={"EMAIL"} img={mail} alt={"EMAIL"} />
-                    </Col>
+
                 </Row>
                 <br />
                 <Row>

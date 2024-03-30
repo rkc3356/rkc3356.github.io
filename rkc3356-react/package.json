@@ -5,6 +5,8 @@
   "homepage": "https://rkc3356.github.io",
   "private": true,
   "dependencies": {
+    "@mui/material": "^5.15.14",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -14,6 +16,7 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^2.2.2",
     "reactstrap": "^9.1.8",
+    "styled-components": "^6.1.8",
     "tsparticles": "^2.2.2",
     "tsparticles-engine": "^2.2.2",
     "tsparticles-slim": "^2.2.2",
