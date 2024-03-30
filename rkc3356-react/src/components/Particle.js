@@ -48,10 +48,10 @@ const ParticleComponent = () => {
                     value: { min: 1, max: 3 }
                 },
                 opacity: {
-                    value: { min: 0.3, max: 0.7 }
+                    value: { min: 0.3, max: 0.4 }
                 },
                 shape: {
-                    type: "triangle"
+                    type: "circle"
                 },
             }
         };
