@@ -41,3 +41,15 @@ button {
 .row {
   justify-content: space-between;
 }
+
+.MuiInputBase-formControl > input {
+  color: white;
+}
+
+.MuiFormControl-root > label {
+  color: white;
+}
+
+.Mui-focused {
+  color: rgb(162, 162, 162) !important;
+}
