@@ -4,7 +4,7 @@ import { loadSlim } from "tsparticles-slim";
 //import { loadFull } from "tsparticles";
 import { useCallback, useMemo } from "react";
 
-const ParticleComponent = () => {
+const ParticleComponent = (clickable) => {
 
     const options = useMemo(() => {
         return {
@@ -18,7 +18,7 @@ const ParticleComponent = () => {
             interactivity: {
                 events: {
                     onClick: {
-                        enable: true,
+                        enable: clickable,
                         mode: "push",
                     },
                     onHover: {
@@ -55,7 +55,7 @@ const ParticleComponent = () => {
                 },
             }
         };
-    }, []);
+    }, [clickable]);
 
     const particlesInit = useCallback((engine) => {
         loadSlim(engine);

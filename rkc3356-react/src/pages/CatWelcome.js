@@ -41,7 +41,7 @@ export default function CatWelcome() {
 
   return (
     <div>
-      <ImageButton to={'/'} img={Home} width={40} divStyle={{ display: 'flex', margin: 10 }} />
+      <ImageButton to={'/home'} img={Home} width={40} divStyle={{ display: 'flex', margin: 10 }} />
       <Grid container sx={{ height: '100vh' }} style={{ alignItems: 'center', flexDirection: 'column' }}>
         <WelcomePet width={'100px'} height={'100px'} style={{ margin: 20 }} />
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
@@ -100,7 +100,7 @@ export default function CatWelcome() {
             </form>
           </div>
         </Grid>
-        <ParticleComponent />
+        <ParticleComponent clickable={false} />
       </Grid>
     </div>
   );

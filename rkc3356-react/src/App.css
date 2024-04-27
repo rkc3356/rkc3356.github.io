@@ -47,9 +47,13 @@ button {
 }
 
 .MuiFormControl-root > label {
-  color: white;
+  color: rgb(162, 162, 162);
 }
 
 .Mui-focused {
-  color: rgb(162, 162, 162) !important;
+  color: white !important;
+}
+
+.MuiInput-underline::after {
+  border-bottom: 2px solid white !important;
 }

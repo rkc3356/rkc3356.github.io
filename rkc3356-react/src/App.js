@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Welcome from './pages/welcome';
-import Home from './pages/home';
-import CatWelcome from './containers/CatWelcome';
+import Welcome from './pages/Welcome';
+import Home from './pages/Home';
+import CatWelcome from './pages/CatWelcome';
 
 function App() {
 

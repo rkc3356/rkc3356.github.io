@@ -47,7 +47,7 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
-            <ParticleComponent />
+            <ParticleComponent clickable={true} />
         </div>
     );
 }
