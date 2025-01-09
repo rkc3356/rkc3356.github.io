@@ -23,7 +23,7 @@ function Home() {
                         <ImageButton to={"https://open.spotify.com/artist/417kM0woqUMxUUR8qedzC9?si=7jk8VNhRRm67lCOM5jxM9w"} name={"SPOTIFY"} img={spotify} alt={"SPOTIFY"} />
                     </Col>
                     <Col>
-                        <ImageButton to={"https://soundcloud.com/prodraavi"} name={"SOUNDCLOUD"} img={soundcloud} alt={"SOUNDCLOUD"} />
+                        <ImageButton to={"https://www.linkedin.com/in/raavi-chowdhury-38957b194/"} name={"LINKEDIN"} img={linkedin1} alt={"LINKEDIN"} />
                     </Col>
                 </Row>
                 <br />
